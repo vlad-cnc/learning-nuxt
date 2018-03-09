@@ -1,0 +1,19 @@
+{
+  "name": "learning-nuxt",
+  "version": "1.0.0",
+  "description": "Learning nuxt with Max Schwartzmuellers course on udemy",
+  "author": "Vladimir Curcic",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
