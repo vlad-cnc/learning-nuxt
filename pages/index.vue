@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <nuxt-link to="/users">Users</nuxt-link>
+    <button @click="goProduct">Products Page</button>
   </section>
 </template>
 
@@ -10,6 +11,11 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  methods: {
+    goProduct() {
+      this.$router.push('/products');
+    }
   }
 }
 </script>
