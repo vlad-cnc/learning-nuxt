@@ -1,7 +1,6 @@
 <template>
   <section class="container">
     <nuxt-link to="/users">Users</nuxt-link>
-    <button @click="goProduct">Products Page</button>
   </section>
 </template>
 
@@ -13,9 +12,6 @@ export default {
     Logo
   },
   methods: {
-    goProduct() {
-      this.$router.push('/products');
-    }
   }
 }
 </script>
