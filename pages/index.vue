@@ -6,7 +6,7 @@
         learning-nuxt
       </h1>
       <h2 class="subtitle">
-        Learning nuxt with Max Schwartzmuellers course on udemy
+        Learn that vue bro
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
